@@ -8,8 +8,8 @@ function Process() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4" data-aos="fade-up">Built exclusively for you</h2>
-            <p className="text-xl text-gray-400" data-aos="fade-up" data-aos-delay="200">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla.</p>
+            <h2 className="h2 mb-4" data-aos="fade-up">No More Alt+Tab</h2>
+            <p className="text-xl text-gray-400" data-aos="fade-up" data-aos-delay="200">Don't switch tabs to change the music or look up a crafting recipe, keep your gameplay interrupted and just ask Alexuh.</p>
           </div>
 
           {/* Items */}
@@ -23,8 +23,8 @@ function Process() {
                 <path className="stroke-current text-purple-300" strokeWidth="2" strokeLinecap="square" d="M21 23h22v18H21z" fill="none" fillRule="evenodd" />
                 <path className="stroke-current text-purple-100" d="M26 28h12M26 32h12M26 36h5" strokeWidth="2" strokeLinecap="square" />
               </svg>
-              <h4 className="h4 mb-2"><span className="text-gray-400">1</span>. Acquisition</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+              <h4 className="h4 mb-2"><span className="text-gray-400">1</span>. Invitation</h4>
+              <p className="text-lg text-gray-400 text-center">Have the bot join you in any voice channel by using the "Alexuh, join" command</p>
             </div>
 
             {/* 2nd item */}
@@ -38,7 +38,7 @@ function Process() {
                 </g>
               </svg>
               <h4 className="h4 mb-2"><span className="text-gray-400">2</span>. Activation</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+              <p className="text-lg text-gray-400 text-center">Vocally say the keyword "Alexuh", followed by the desired command. (ex: "Alexuh, tell me a Joke")</p>
             </div>
 
             {/* 3rd item */}
@@ -48,8 +48,8 @@ function Process() {
                 <path className="stroke-current text-purple-300" strokeWidth="2" strokeLinecap="square" d="M21 35l4 4 12-15" fill="none" fillRule="evenodd" />
                 <path className="stroke-current text-purple-100" d="M42 29h-3M42 34h-7M42 39H31" strokeWidth="2" strokeLinecap="square" />
               </svg>
-              <h4 className="h4 mb-2"><span className="text-gray-400">3</span>. Retention</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+              <h4 className="h4 mb-2"><span className="text-gray-400">3</span>. Recognition</h4>
+              <p className="text-lg text-gray-400 text-center">Alexuh's profile image should light up when it hears the keyword and respond accordingly. Use "Alexuh, help" for help</p>
             </div>
 
           </div>

@@ -8,7 +8,7 @@ import FeaturesHome from '../partials/FeaturesHome';
 import Tabs from '../partials/Tabs';
 import Target from '../partials/Target';
 import News from '../partials/News';
-import Newsletter from '../partials/Newsletter';
+import Invitation from '../partials/Invitation';
 import Footer from '../partials/Footer';
 
 function Home() {
@@ -30,10 +30,10 @@ function Home() {
         <HeroHome />
         <Process />
         <FeaturesHome />
-        <Tabs />
         <Target />
-        <News />
-        <Newsletter />
+        <Tabs />
+        {/* <News /> */}
+        <Invitation />
 
       </main>
 

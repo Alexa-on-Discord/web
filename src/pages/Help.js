@@ -34,26 +34,30 @@ function Help() {
                 <div className={page !== 1 ? 'hidden' : undefined}>
                   <div className="mb-8">
                     <h2 className="h2 mb-4">FAQ’s – Frequently Asked Questions</h2>
-                    <p className="text-gray-400">Last updated - <span className="text-purple-600">June 30, 2020</span></p>
+                    <p className="text-gray-400">Last updated - <span className="text-purple-600">April 27, 2021</span></p>
                   </div>
                   <ul className="-my-4">
                     <li className="py-4">
-                      <h4 className="text-xl font-medium mb-2">How can I use Open PRO without registration?</h4>
-                      <p className="text-lg text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis enim lobortis scelerisque fermentum.</p>
+                      <h4 className="text-xl font-medium mb-2">How does it work?</h4>
+                      <p className="text-lg text-gray-400">After you invite Alexuh into your voice channel, Alexuh listens in, waiting for the keyword "Alexuh" to be said. After "Alexuh" is said, it listens for the command, processes the intent, and responds in kind.</p>
                     </li>
                     <li className="py-4">
-                      <h4 className="text-xl font-medium mb-2">Can I import my sitemap to Open PRO?</h4>
-                      <p className="text-lg text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis enim lobortis scelerisque fermentum.</p>
+                      <h4 className="text-xl font-medium mb-2">Why doesn't the ... command work?</h4>
+                      <p className="text-lg text-gray-400">Alexuh has two categories of commands: Text and Voice. Some types of commands are exclusive to one category. For example, you can only ask Alexuh for a joke through Voice by vocally saying "Alexuh, tell me a joke". Use/Ask "alexuh, help" to ensure the command you are trying exists in the right category.</p>
                     </li>
                     <li className="py-4">
-                      <h4 className="text-xl font-medium mb-2">How can I switch my subscription between essential, and premium plans?</h4>
-                      <p className="text-lg text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis enim lobortis scelerisque fermentum.</p>
+                      <h4 className="text-xl font-medium mb-2">Why is Alexuh's profile picture lighting up?</h4>
+                      <p className="text-lg text-gray-400">Alexuh's profile picture can light up for two reasons. If Alexuh is speaking or playing music, it's profile will light up to indicate it is transmitting audio. Alexuh's profile picture will also light up if the keyword, "Alexuh" is heard. After it hears "Alexuh", it will start listening to what you are saying in order to process any spoken commands.</p>
                     </li>
                     <li className="py-4">
-                      <h4 className="text-xl font-medium mb-2">Can I cancel my subscription at any time?</h4>
-                      <p className="text-lg text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis enim lobortis scelerisque fermentum.</p>
+                      <h4 className="text-xl font-medium mb-2">Does Alexuh record what I am saying?</h4>
+                      <p className="text-lg text-gray-400">Alexuh only records what you are saying after the keyword, "Alexuh", is heard. If the keyword is not heard, it is not recording audio.</p>
                     </li>
                     <li className="py-4">
+                      <h4 className="text-xl font-medium mb-2">Why doesn't Alexuh seem to hear me?</h4>
+                      <p className="text-lg text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis enim lobortis scelerisque fermentum.</p>
+                    </li>
+                    {/* <li className="py-4">
                       <h4 className="text-xl font-medium mb-2">Is there an additional discount when paid annually?</h4>
                       <p className="text-lg text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis enim lobortis scelerisque fermentum.</p>
                     </li>
@@ -64,7 +68,7 @@ function Help() {
                     <li className="py-4">
                       <h4 className="text-xl font-medium mb-2">What kind of payment methods do you provide?</h4>
                       <p className="text-lg text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis enim lobortis scelerisque fermentum.</p>
-                    </li>
+                  </li> */}
                   </ul>
                 </div>
 
@@ -72,7 +76,7 @@ function Help() {
                 <div className={page !== 2 ? 'hidden' : undefined}>
                   <div className="mb-8">
                     <h2 className="h2 mb-4">What is Open PRO</h2>
-                    <p className="text-gray-400">Last updated - <span className="text-purple-600">June 30, 2020</span></p>
+                    <p className="text-gray-400">Last updated - <span className="text-purple-600">April 27, 2021</span></p>
                   </div>
                   <ul className="-my-4">
                     <li className="py-4">
@@ -110,7 +114,7 @@ function Help() {
                 <div className={page !== 3 ? 'hidden' : undefined}>
                   <div className="mb-8">
                     <h2 className="h2 mb-4">Open PRO plan’s features</h2>
-                    <p className="text-gray-400">Last updated - <span className="text-purple-600">June 30, 2020</span></p>
+                    <p className="text-gray-400">Last updated - <span className="text-purple-600">April 27, 2021</span></p>
                   </div>
                   <ul className="-my-4">
                     <li className="py-4">
@@ -148,7 +152,7 @@ function Help() {
                 <div className={page !== 4 ? 'hidden' : undefined}>
                   <div className="mb-8">
                     <h2 className="h2 mb-4">Get started</h2>
-                    <p className="text-gray-400">Last updated - <span className="text-purple-600">June 30, 2020</span></p>
+                    <p className="text-gray-400">Last updated - <span className="text-purple-600">April 27, 2021</span></p>
                   </div>
                   <ul className="-my-4">
                     <li className="py-4">
@@ -186,7 +190,7 @@ function Help() {
                 <div className={page !== 5 ? 'hidden' : undefined}>
                   <div className="mb-8">
                     <h2 className="h2 mb-4">Payments FAQ’s</h2>
-                    <p className="text-gray-400">Last updated - <span className="text-purple-600">June 30, 2020</span></p>
+                    <p className="text-gray-400">Last updated - <span className="text-purple-600">April 27, 2021</span></p>
                   </div>
                   <ul className="-my-4">
                     <li className="py-4">
