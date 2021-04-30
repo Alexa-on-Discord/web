@@ -64,9 +64,9 @@ function Footer() {
 
               {/* 4th block */}
               <div className="text-sm">
-                <h6 className="text-gray-200 font-medium mb-1">Resources</h6>
+                {/* <h6 className="text-gray-200 font-medium mb-1">Resources</h6> */}
                 <ul>
-                  <li className="mb-1">
+                  {/* <li className="mb-1">
                     <Link to="#" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Privacy Policy</Link>
                   </li>
                   <li className="mb-1">
@@ -74,7 +74,7 @@ function Footer() {
                   </li>
                   <li className="mb-1">
                     <Link to="#" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Contact Us</Link>
-                  </li>
+                  </li> */}
                   {/* <li className="mb-1">
                     <Link to="#" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Labore et dolore</Link>
                   </li>

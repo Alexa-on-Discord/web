@@ -55,7 +55,7 @@ function Help() {
                     </li>
                     <li className="py-4">
                       <h4 className="text-xl font-medium mb-2">Why doesn't Alexuh seem to hear me?</h4>
-                      <p className="text-lg text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis enim lobortis scelerisque fermentum.</p>
+                      <p className="text-lg text-gray-400">There are a few reasons Alexuh might not be able to hear you. It could be either your microphone (try using a headset mic, if you aren't already), or your internet connection. Regarding the microphone problem, you might also have better luck using Push-To-Talk over voice activity. You can check your connection to the bot by using the "Alexuh, ping" command.</p>
                     </li>
                     {/* <li className="py-4">
                       <h4 className="text-xl font-medium mb-2">Is there an additional discount when paid annually?</h4>
@@ -73,7 +73,7 @@ function Help() {
                 </div>
 
                 {/* What is Open PRO */}
-                <div className={page !== 2 ? 'hidden' : undefined}>
+                {/* <div className={page !== 2 ? 'hidden' : undefined}>
                   <div className="mb-8">
                     <h2 className="h2 mb-4">What is Open PRO</h2>
                     <p className="text-gray-400">Last updated - <span className="text-purple-600">April 27, 2021</span></p>
@@ -108,10 +108,10 @@ function Help() {
                       <p className="text-lg text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis enim lobortis scelerisque fermentum.</p>
                     </li>
                   </ul>
-                </div>
+                </div> */}
 
                 {/* Open PRO plan’s features */}
-                <div className={page !== 3 ? 'hidden' : undefined}>
+                {/* <div className={page !== 3 ? 'hidden' : undefined}>
                   <div className="mb-8">
                     <h2 className="h2 mb-4">Open PRO plan’s features</h2>
                     <p className="text-gray-400">Last updated - <span className="text-purple-600">April 27, 2021</span></p>
@@ -146,10 +146,10 @@ function Help() {
                       <p className="text-lg text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis enim lobortis scelerisque fermentum.</p>
                     </li>
                   </ul>
-                </div>
+                </div> */}
 
                 {/* Get started */}
-                <div className={page !== 4 ? 'hidden' : undefined}>
+                {/* <div className={page !== 4 ? 'hidden' : undefined}>
                   <div className="mb-8">
                     <h2 className="h2 mb-4">Get started</h2>
                     <p className="text-gray-400">Last updated - <span className="text-purple-600">April 27, 2021</span></p>
@@ -184,10 +184,10 @@ function Help() {
                       <p className="text-lg text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis enim lobortis scelerisque fermentum.</p>
                     </li>
                   </ul>
-                </div>
+                </div> */}
 
                 {/* Payments FAQ’s */}
-                <div className={page !== 5 ? 'hidden' : undefined}>
+                {/* <div className={page !== 5 ? 'hidden' : undefined}>
                   <div className="mb-8">
                     <h2 className="h2 mb-4">Payments FAQ’s</h2>
                     <p className="text-gray-400">Last updated - <span className="text-purple-600">April 27, 2021</span></p>
@@ -222,7 +222,7 @@ function Help() {
                       <p className="text-lg text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis enim lobortis scelerisque fermentum.</p>
                     </li>
                   </ul>
-                </div>
+                </div> */}
 
               </main>
 
@@ -243,7 +243,7 @@ function Help() {
                         </svg>
                       </a>
                     </li>
-                    <li className="py-2 border-b border-gray-800">
+                    {/* <li className="py-2 border-b border-gray-800">
                       <a
                         className={`flex items-center px-3 group text-gray-400 hover:text-purple-600 transition duration-150 ease-in-out ${page === 2 && 'text-purple-600'}`}
                         href="#0"
@@ -290,7 +290,7 @@ function Help() {
                           <path d="M11.707 5.293L7 .586 5.586 2l3 3H0v2h8.586l-3 3L7 11.414l4.707-4.707a1 1 0 000-1.414z" />
                         </svg>
                       </a>
-                    </li>
+                    </li> */}
                   </ul>
                 </nav>
               </aside>
