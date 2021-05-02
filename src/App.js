@@ -49,6 +49,12 @@ function App() {
         <Route exact path="/">
           <Home />
         </Route>
+
+        <Route path="/invite" component={() => {
+            window.location.href = "https://discord.com/oauth2/authorize?client_id=665512711672823838&permissions=32829248&scope=bot";
+            return null;
+          }}/>
+
         <Route path="/features">
           <Features />
         </Route>
