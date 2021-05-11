@@ -43,16 +43,16 @@ function Tabs() {
                 </svg>
                 <span className="text-gray-400 group-hover:text-gray-200 transition-colors duration-150 ease-in-out">Minecraft</span>
               </button>
-              {/* <button
+              <button
                 className={`flex items-center font-medium py-2 px-4 m-2 bg-gray-800 rounded-full group transition duration-500 ${tab !== 2 && 'opacity-50'}`}
                 onClick={() => setTab(2)}
               >
                 <svg className="w-4 h-4 fill-current text-purple-600 mr-2" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                   <path d="M9.043 6.293S9.79 1.905 6.745 0A5.37 5.37 0 014.72 3.887C3.42 5.03.974 7.6 1 10.34A6.285 6.285 0 004.451 16a3.984 3.984 0 011.394-2.755 3.253 3.253 0 001.246-2.185 5.856 5.856 0 013.1 4.881v.013a5.883 5.883 0 003.428-5.106c.216-2.574-1.194-6.074-2.445-7.218a6.793 6.793 0 01-2.13 2.663z" />
                 </svg>
-                <span className="text-gray-400 group-hover:text-gray-200 transition-colors duration-150 ease-in-out">Terraria</span>
+                <span className="text-gray-400 group-hover:text-gray-200 transition-colors duration-150 ease-in-out">League of Legends</span>
               </button>
-              <button
+              {/* <button
                 className={`flex items-center font-medium py-2 px-4 m-2 bg-gray-800 rounded-full group transition duration-500 ${tab !== 3 && 'opacity-50'}`}
                 onClick={() => setTab(3)}
               >
@@ -127,17 +127,21 @@ function Tabs() {
               >
                 <article className="relative max-w-md mx-auto md:max-w-none">
                   <figure className="md:absolute md:inset-y-0 md:left-0 md:w-1/2">
-                    <img className="w-full h-full object-cover" src={require('../images/hero-image-01.jpg')} width="516" height="387" alt="Tabs 02" />
+                    <img className="w-full h-full object-cover" src={require('../images/tabs-image-04.png')} width="516" height="387" alt="Tabs 01" />
                   </figure>
                   <div className="relative bg-gray-800 py-8 md:py-16 px-6 md:pl-16 md:max-w-lg lg:max-w-xl md:ml-auto">
-                    <h4 className="h4 mb-2">Easy to start, optimize and scale</h4>
-                    <p className="text-lg text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                    <a className="btn-sm text-white bg-purple-600 hover:bg-purple-700 mt-6" href="#0">
+                    <h4 className="h4 mb-2">Features</h4>
+                    <p className="text-lg text-gray-400">Get information about any champion.</p>
+                    <br />
+                    <ul class=".list-disc">
+                      <li>Alexuh, Tell me about the Champion Dr. Mundo</li>
+                    </ul>
+                    {/* <a className="btn-sm text-white bg-purple-600 hover:bg-purple-700 mt-6" href="#0">
                       <span className="text-sm">Learn more</span>
                       <svg className="w-3 h-3 fill-current text-purple-400 flex-shrink-0 ml-2" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M6 5H0v2h6v4l6-5-6-5z" />
                       </svg>
-                    </a>
+                    </a> */}
                   </div>
                 </article>
               </Transition>
