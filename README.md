@@ -4,9 +4,11 @@
 	<i>It’s Alexa, but for Discord</i>
 </div>
 
-![Alexuh Logo](./public/logo512.png)
+<div align="center">
+<img src="./public/logo512.png" />
 
 A Voice Commanded Discord Bot with hand free controls
+</div>
 
 <div align="center">
   <h3>
