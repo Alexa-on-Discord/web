@@ -102,7 +102,11 @@ function Tabs() {
                   </figure>
                   <div className="relative bg-gray-800 py-8 md:py-16 px-6 md:pr-16 md:max-w-xs lg:max-w-xl">
                     <h4 className="h4 mb-2">Features</h4>
-                    <p className="text-lg text-gray-400">Get help crafting items and detailed information about each item. Look up the drop rates, and more.</p>
+                    <p className="text-lg text-gray-400">Get information about any item.</p>
+                    <br />
+                    <ul class=".list-disc">
+                      <li>Alexuh, How do I craft a Fire Charge?</li>
+                    </ul>
                     <a className="btn-sm text-white bg-purple-600 hover:bg-purple-700 mt-6" href="https://www.youtube.com/watch?v=nfNHOjtlcH0">
                       <span className="text-sm">Learn more</span>
                       <svg className="w-3 h-3 fill-current text-purple-400 flex-shrink-0 ml-2" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
