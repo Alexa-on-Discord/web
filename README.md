@@ -1,77 +1,70 @@
-# Open PRO React
+<h1 align="center">Alexuh</h1>
 
-React landing page template designed by Cruip.
+<div align="center">
+	<i>It’s Alexa, but for Discord</i>
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Alexuh Logo](./public/logo512.png)
 
-## Available Scripts
+A Voice Commanded Discord Bot with hand free controls
 
-In the project directory, you can run:
+<div align="center">
+  <h3>
+  	<a href="https://alexuh.com">
+      Website
+    </a>
+  	<span> | </span>
+    <a href="https://alexuh.com/invite">
+      Invite the Bot
+    </a>
+    <span> | </span>
+    <a href="https://vimeo.com/435415946">
+      Video Demo
+    </a>
+  </h3>
+</div>
 
-### `yarn start`
+## Getting Started
+Type “alexuh join” to have her join you in voice channel
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Type “alexuh help” to see list of commands
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## No More Alt+Tab
+Don’t switch tabs to change the music, keep your gameplay uninterrupted and tell it to Alexuh.
 
-### `yarn test`
+- Control the Music (Alexuh, play Despacito)
+- Control the Players (Alexuh, move Timmy to Timeout)
+- Control the Server (Alexuh, kick Wumpus)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Voice Commands
+- Alexuh, Mic Check
+- Alexuh, Tell me a Joke
+- Alexuh, Play Despacito
+- Alexuh, Volume 8 (1 - 10)
+- Alexuh, Pause
+- Alexuh, Resume
+- Alexuh, Stop
+- Alexuh, Move Tyler to Lobby (Lobby = Voice Channel Name)
+- Alexuh, Move Me to Lobby
+- Alexuh, Kick Tim
+- Alexuh, Mute Gerald | Alexuh, Unmute Gerald
+- Alexuh, Mute Everyone | Alexuh, Unmute Everyone
+- Alexuh, Show me a Tiger (Tiger can be anything)
+- Alexuh, Give me a Waifu
+- Alexuh, Roast Tyler (Tyler = any name)
+- Alexuh, Roast Me
+- Alexuh, Spell Lantern (Lantern = any word)
+- Alexuh, Repeat
+- Alexuh, Leave
 
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-
-## Support notes
-We are shipping our templates with a very basic CRA configuration to let you quickly get into the development process, but we don't discourage you from using any other configuration or framework built on the top of React. So, please note that any request dealing with React (e.g. extra features, customisations, et cetera) is to be considered out of the support scope.
-
-For more information about what support covers, please see our (FAQs)[https://cruip.com/faq/].
+### Text Commands
+- Alexuh, Join
+- Alexuh, Vote
+- Alexuh, TTS You Like Jazz? (TTS = Text to Speech)
+- Alexuh, Play Despacito
+- Alexuh, Stop
+- Alexuh, Pause
+- Alexuh, Resume
+- Alexuh, Ping (Checks latency)
+- Alexuh, Leave
+- Alexuh, History (Logs Usage History)
